@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
+    background-color: #4c566a;
+    padding: 20px;
+}
+.container div {
+    padding: 20px;
+    font-size: 36px;
+    color: #d8dee9;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+.about {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
